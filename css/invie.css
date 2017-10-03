@@ -275,5 +275,19 @@ input:focus, textarea:focus {
 
 
 @media screen and (max-width: 800px) {
-
+  /* Cambiando los estilos de la portada */
+  .titulo {
+    font-size: 45px;
+    margin-top: 30px;
+  }
+  .title-a{
+    font-size: 18px;
+  }
+  .portada{
+    height: auto;
+  }
+  .portada .button {
+    margin-bottom: 30px;
+    display: inline-block;
+  }
 }
